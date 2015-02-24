@@ -1,0 +1,27 @@
+{
+    "name": "localheinz/zf2-non-module",
+    "description": "It's not a module.",
+    "authors": [
+        {
+            "name": "Andreas",
+            "email": "am@localheinz.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Localheinz\\Zf2NonModule\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Localheinz\\Test\\Zf2NonModule\\": "test"
+        }
+    }
+}
